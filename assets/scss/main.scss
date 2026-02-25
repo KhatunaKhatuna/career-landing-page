@@ -1,0 +1,24 @@
+@use "./base/reset.scss";
+@use "./abstracts/variables";
+@use "./abstracts/fonts";
+@use "./abstracts/mixins";
+
+html {
+  // 16*62.5% =10px
+  font-size: 62.5%;
+}
+body {
+  font-family: variables.$ff-poppins-reg;
+  font-size: variables.$fs-primary-m;
+}
+
+%container {
+  max-width: 124rem;
+  margin: 0 auto;
+}
+
+.header {
+  &-container {
+    @extend %container;
+  }
+}
