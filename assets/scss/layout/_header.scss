@@ -1,0 +1,9 @@
+@use "../abstracts/variables";
+@use "../abstracts/mixins";
+
+.header {
+  &-container {
+    @extend %container;
+    font-family: variables.$ff-poppins-reg;
+  }
+}

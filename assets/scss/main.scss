@@ -1,24 +1,20 @@
-@use "./base/reset.scss";
+@use "./base/reset";
 @use "./abstracts/variables";
-@use "./abstracts/fonts";
-@use "./abstracts/mixins";
+@use "./layout/header";
+@use "./layout/hero";
+@use "./layout/about";
+@use "./layout/services";
+@use "./layout/stories";
+@use "./layout/reviews";
+@use "./layout/contact";
+@use "./layout/footer";
 
 html {
   // 16*62.5% =10px
   font-size: 62.5%;
 }
+
 body {
   font-family: variables.$ff-poppins-reg;
   font-size: variables.$fs-primary-m;
-}
-
-%container {
-  max-width: 124rem;
-  margin: 0 auto;
-}
-
-.header {
-  &-container {
-    @extend %container;
-  }
 }
