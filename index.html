@@ -9,37 +9,36 @@
   <body>
     <header class="header">
       <div class="header-container">
-        <!----logo---->
+        <!-- Logo -->
         <a href="#" class="header-logo">
-          <img
-            src="./assets/images/Logo.svg"
-            alt="logo"
-            class="logo-mobile"
-          /><a class="desktop-logo" href="#">CareerPathNow</a>
+          <img src="./assets/images/Logo.svg" alt="logo" class="logo-mobile" />
         </a>
+        <a class="desktop-logo" href="#">CareerPathNow</a>
+        <!--  Checkbox hack toggles mobile menu open/close without JS -->
         <input id="menu-toggle" type="checkbox" />
-        <a class="night-mobile" href="#"
-          ><img src="./assets/images/ThemeButton.svg" alt=""
-        /></a>
         <!-- Hamburger -->
         <label class="menu-button-container" for="menu-toggle">
           <div class="menu-button"></div>
         </label>
+        <!-- Nav -->
         <ul class="menu">
           <li><a href="#">Home</a></li>
           <li><a href="#">About Us</a></li>
           <li><a href="#">Services</a></li>
           <li><a href="#">Contact</a></li>
           <!-- Mobile only -->
+          <li class="nav-theme">
+            <a href="#"><img src="./assets/images/ThemeButton.svg" alt="" /></a>
+          </li>
           <li class="nav-signin"><a href="#">Sign In</a></li>
           <li class="nav-btn">
             <button class="header-btn">Free Trial</button>
           </li>
         </ul>
         <!-- Desktop only -->
-        <a href="#" class="night-desktop"
-          ><img src="./assets/images/nightwhite.svg" alt=""
-        /></a>
+        <a href="#" class="night-desktop">
+          <img src="./assets/images/nightwhite.svg" alt="" />
+        </a>
         <a href="#" class="sign-in">Sign In</a>
         <button class="header-btn-desktop">Free Trial</button>
       </div>
