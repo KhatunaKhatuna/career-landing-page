@@ -4,7 +4,8 @@
 
 # Ignore generated css files
 /assets/css/
-*.css
+/css
+/*.css
 *.css.map
 
 
