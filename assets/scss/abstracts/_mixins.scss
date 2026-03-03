@@ -1,4 +1,16 @@
+@use "../abstracts/variables";
+
 %container {
   max-width: 124rem;
   margin: 0 auto;
+}
+@mixin btn($padding) {
+  padding: $padding;
+  border-radius: 0.8rem;
+}
+
+@mixin text-prop($fs, $fw, $color: variables.$text-primary) {
+  font-size: $fs;
+  font-weight: $fw;
+  color: $color;
 }
