@@ -18,3 +18,8 @@ body {
   font-family: variables.$ff-poppins-reg;
   font-size: variables.$fs-primary-m;
 }
+.card {
+  width: 200px;
+  height: 50px;
+  background-color: red;
+}
